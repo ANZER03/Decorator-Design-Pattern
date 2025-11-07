@@ -6,7 +6,7 @@ public class ChocolateDecorator extends BoisonDecorator{
 
 
     public ChocolateDecorator(Boisson boisson) {
-        super.boisson = boisson;
+        this.boisson = boisson;
         this.description = " au Chocolate";
         this.price = 1.5;
     }

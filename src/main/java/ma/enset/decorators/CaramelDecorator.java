@@ -6,7 +6,7 @@ import ma.enset.boisson.Boisson;
 public class CaramelDecorator extends BoisonDecorator {
 
     public CaramelDecorator(Boisson boisson) {
-        super.boisson = boisson;
+        this.boisson = boisson;
         this.price = 2.0;
         this.description = " au Caramel";
     }
